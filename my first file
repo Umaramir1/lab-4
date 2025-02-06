@@ -28,3 +28,18 @@ class Program
         Console.WriteLine($"The Multiplication of {num1} and {num2} is {Mul}");
     }
 }
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num1, num2, Sub;
+        Console.Write("Enter the first number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the second number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        int Sub = num1 - num2;
+        Console.WriteLine($"The Subtraction of {num1} and {num2} is {Sub}");
+    }
+}
